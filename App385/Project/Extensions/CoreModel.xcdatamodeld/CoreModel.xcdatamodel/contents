@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="DocModel" representedClassName="DocModel" syncable="YES" codeGenerationType="class">
+        <attribute name="docNumber" optional="YES" attributeType="String"/>
+        <attribute name="docTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FurnitureModel" representedClassName="FurnitureModel" syncable="YES" codeGenerationType="class">
+        <attribute name="furCategory" optional="YES" attributeType="String"/>
+        <attribute name="furCost" optional="YES" attributeType="String"/>
+        <attribute name="furDate" optional="YES" attributeType="String"/>
+        <attribute name="furTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanningModel" representedClassName="PlanningModel" syncable="YES" codeGenerationType="class">
+        <attribute name="pCategory" optional="YES" attributeType="String"/>
+        <attribute name="pCost" optional="YES" attributeType="String"/>
+        <attribute name="pNotes" optional="YES" attributeType="String"/>
+        <attribute name="pTitle" optional="YES" attributeType="String"/>
+    </entity>
+</model>
