@@ -22,7 +22,7 @@ struct Reviews: View {
             
             VStack {
                 
-                Image("Reviews")
+                Image("users_2")
                     .resizable()
                     .ignoresSafeArea()
             }
@@ -55,7 +55,7 @@ struct Reviews: View {
                         .font(.system(size: 15, weight: .regular))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 14).fill(Color("prim")))
+                        .background(RoundedRectangle(cornerRadius: 14).fill(Color("primary2")))
                 })
             }
             .padding()

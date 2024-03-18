@@ -20,7 +20,7 @@ struct Join: View {
             
             VStack {
                 
-                Image("Join")
+                Image("users_3")
                     .resizable()
                     .ignoresSafeArea()
             }
@@ -44,7 +44,7 @@ struct Join: View {
                         .font(.system(size: 15, weight: .regular))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 14).fill(Color("prim")))
+                        .background(RoundedRectangle(cornerRadius: 14).fill(Color("primary2")))
                 })
             }
             .padding()
@@ -62,7 +62,7 @@ struct Join: View {
                         .foregroundColor(.white)
                         .font(.system(size: 14, weight: .regular))
                         .padding(5)
-                        .background(Circle().fill(Color("prim").opacity(0.4)))
+                        .background(Circle().fill(Color("primary2").opacity(0.4)))
                 })
                 .frame(maxWidth: .infinity, alignment: .trailing)
                 .padding()
